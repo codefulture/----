@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <h1>模态弹出框</h1>
+    <a href="#modal-register" class="btn btn-success" data-toggle="modal">注册新用户</a>
+    <button class="btn btn-danger" type="button" data-target="#modal-login" data-toggle="modal">老用户登录</button>
+</div>
+
+</body>
+<!--固定定位的内容推荐放置在body的最后-->
+<div id="modal-register" class="modal">     <!--半透明遮罩层-->
+
+</div>
+<div class="modal fade" id="modal-login">        <!--半透明遮罩层-->
+    <div class="modal-dialog">                   <!--宽高，定位-->
+        <div class="modal-content">              <!--背景、边框、阴影-->
+            <div class="modal-header">      <!--对话框头-->
+                <span class="close" data-dismiss="modal">&times;</span>
+                <h3 class="middle-title">user login</h3>
+            </div>
+            <div class="modal-body">        <!--主题部分-->
+                <form action="">
+                    <div class="form-group">
+                        <label for="uname">用户名：</label>
+                        <input type="text" class="form-control" id="uname"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="upwd">密码：</label>
+                        <input type="text" class="form-control" id="upwd"/>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label><input type="checkbox"/>7天之内自动登录
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">      <!--对话框尾部-->
+                <input type="button" value="提交" class="btn btn-success"/>
+                <input type="button" value="取消" class="btn btn-danger" data-dismiss="modal"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script>
+    (function () {
+        var s = document.createElement("script");
+        s.onload = function () {
+            bootlint.showLintReportForCurrentDocument([]);
+        };
+        s.src = "../js/bootlint.js";
+        document.body.appendChild(s)
+    })();
+</script>

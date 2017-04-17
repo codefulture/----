@@ -1,0 +1,196 @@
+body {
+  background-color: #eee!important;
+  overflow-x: hidden;
+  height: 100%;
+}
+@font-face {
+	font-family: Roboto-Black; 
+	src: url('fonts/Roboto-Black.ttf'); 
+}
+@font-face {
+	font-family: Roboto-BlackItalic;
+	scr: url('fonts/Roboto-BlackItalic.ttf');
+}
+@font-face {
+	font-family: Huakang;
+	src: url('fonts/Huakang.ttf');
+}
+#alertbox1 {
+  margin: 0 auto;
+}
+/*首页样式*/
+.first-page {
+  background-image : url(../image/bg_first.jpg);
+  background-repeat: no-repeat;
+  display: block;
+  min-height: 520px;
+}
+
+.first-page .row {
+  margin: 200px auto;
+  /*background-color: rgba(255,255,255,0.5);*/
+}
+.first-page h1.home-title{
+	font-size:35px;
+  	font-weight: bold;
+	font-weight:500;
+	color:#fff;
+  	text-shadow: 1px 1px 1px #555;
+	letter-spacing: 1px;
+}
+.first-page p.home-subtitle {
+  font-size: 35px;
+  margin: 0 0 20px;
+  display: block;
+  color: #eee;
+  text-shadow: 1px 1px 1px #777;
+}
+.first-page p.home-subtitle2 {
+  font-size: 16px;
+  font-family: Roboto-Black;
+  margin: 0 0 20px;
+  display: block;
+  color: #eee;
+  text-shadow: 1px 1px 1px #777;
+}
+.first-page button.btn-margin {
+  display: inline-block;
+  width: 150px;
+  margin: 10px 10px;
+  border-radius: 3px;
+}
+.first-page .btn-white {
+  color: #454545;
+  background-color: #111;
+  border-color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.first-page .btn-group-lg button:first-child {
+  border: 1px solid #fff;
+}
+.first-page .btn-group-lg button:first-child:hover {
+  background-color: rgba(0,0,255,0.3);;
+  color: #333;
+}
+.first-page .btn-group-lg button:last-child {
+  border: 1px solid #fff;
+  color: #333;
+}
+.first-page .btn-group-lg button:last-child:hover {
+  color: #333;
+  background-color: rgba(0,0,255,0.3);
+}
+.first-page .page-scroll {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -25px;
+}
+.first-page .more span {
+  margin: 10px 20px;
+  display: block;
+}
+/*第二页*/
+.second-page {
+    margin-bottom: 20px;
+}
+.second-page .bg_second {
+  background-color: #eee;
+  display: block;
+  min-height: 550px;
+}
+.second-page .home {
+  margin-bottom: 50px;
+}
+.second-page .home-title {
+  font-size: 30px;
+  font-family: 'Microsoft YaHei';
+  margin: 70px 0 30px 0;
+}
+.second-page .home p {
+	font-family: 'FangSong';
+	font-weight: bold;
+	font-size: 16px;
+}
+.second-page .subpage {
+  min-height: 300px;
+}
+.second-page .subpage .icon {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-left: 32%;
+  margin-bottom: 30px; 
+}
+.second-page .subpage .innovation{
+  padding-top: 12px;
+}
+.second-page .subpage .yiliao{
+  padding-top: 12px;
+}
+.second-page .subpage .fuwu {
+  padding-top: 14px;
+}
+.second-page .subpage .coldiv {
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(59,190,122,.8);
+  color: rgba(255,255,255,.8);
+  border-radius: 2px;
+  padding: 18% 10%;
+}
+
+/*第四页*/
+.fourth_page {
+  background-image: url(../image/bg_fourth.jpg);
+  display: block;
+  min-height: 350px;
+  /*filter: alpha(opacity=50); */
+}
+.fourth_page .mask {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  background-color:#000;
+  opacity:0.5;
+  z-index: 9;
+}
+.fourth_page .container .section-title , .section-subtitle {
+  font-weight: bold;
+  color: #eee;
+}
+.fourth_page .container .contact input:not(.contact-submit){
+  width: 400px;
+  height: 50px;
+  border: 1px solid #777;
+  margin-top: 10px;
+  background-color: #555;
+  border-radius: 6px;
+  margin-left: 93px;
+  color: #eee;
+}
+.fourth_page .container .contact textarea {
+  width: 400px;
+  height: 170px;
+  border: 1px solid #777;
+  border-radius: 6px;
+  background-color: #555;
+  margin-top: 10px;
+  color: #eee;
+}
+.fourth_page .container .contact-submit {
+  width: 120px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #82c73a;
+  border: 1px solid #82c73a;
+  margin-top: 20px; 
+  margin-left: 480px;
+}
+.footer .footer_content .footer_box .row ul li {
+  margin-left: -45px;
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Shuffling_figure {
+  background-color: #eee;
+  width: 1366px;
+  height: 651px;
+  margin-top: 40px;
+}
+.carousel > .carousel-inner > .item > img {
+  width: 100%;
+  height: 100%;
+}
+/*志愿申请*/
+.bgc {
+  background-color: #eee;
+  margin-bottom: 10px;
+}
+.bgc .container .identity {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+}
+.bgc .container .title {
+  text-align: center;
+}
+.bgc .container .identity-select {
+  font-size: 18px;
+}
+.bgc .container .border {
+  border: 2px solid #333;
+  margin-top: 10px;
+}
+.bgc .container .sbmt {
+  margin-left: 170px;
+}
+.bgc .container .reset {
+  margin-left: 200px;
+}
+.bgc .container .information {
+  font-size: 14px;
+  color: #444;
+}
+.footer .footer_content .footer_box .row ul li {
+  margin-left: 0px;
+}

@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+.empty {
+	height:60px;
+}
+
+.footer .footer_content .footer_box .row ul li {
+  margin-left: -45px;
+}
+.message {
+	margin-bottom: 10px;
+}

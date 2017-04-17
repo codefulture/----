@@ -1,0 +1,67 @@
+/*底部*/
+.footer {
+  position: relative;
+}
+.footer_content {
+  width: 100%;
+  height: auto;
+  background-color: #1f2228;/**/
+  position: absolute;
+}
+.returnTop {
+  display: block;
+  width: 70px;
+  height: 57px;
+  position: absolute;
+  right: 0px;
+  top: 420px;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 9;
+  font-size: 16px;
+  text-align: center;
+  display: none;
+}
+
+.footer .footer_content .footer_box {
+  margin-top: 50px;
+}
+.footer .footer_content .footer_box .row h4 {
+  color: #eee;
+  font-weight: bold;
+  font: 18px;
+  margin-bottom: 30px;
+}
+.footer .footer_content .footer_box .row ul{
+  list-style: none;
+}
+.footer .footer_content .footer_box .row ul li {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.footer .footer_content .footer_box .row ul li a {
+  color: #949596;
+}
+.footer_logoqr {
+  margin: 20px auto;
+  /*position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%,0);
+      -ms-transform: translate(-50%,0);
+       -o-transform: translate(-50%,0);
+          transform: translate(-50%,0);*/
+  text-align: center;
+}
+.copyright {
+  white-space:normal;
+  font-family:'Microsoft YaHei';
+  text-align: center;
+  margin: 20px auto;
+  margin-top: 40px;
+  /*position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%,0);
+      -ms-transform: translate(-50%,0);
+       -o-transform: translate(-50%,0);
+          transform: translate(-50%,0);*/
+}

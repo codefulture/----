@@ -1,0 +1,92 @@
+body {
+  background-color: #eee!important;
+  overflow-x: hidden;
+  height: 100%;
+}
+.empty {
+  height: 50px;
+  width: 100%;
+}
+.first {
+	background-color: #5FABC2;
+}
+.first .container .row .col-md-12 .panel-title {
+  margin-left: 30px;
+  color:#eee;
+  font-weight: bold;
+}
+.first .container .row .col-md-12 .col-md-4 {
+  width: 360px;
+  height: 200px;
+  border-radius: 3px;
+  background-color: #eee;
+  margin: 10px;
+}
+.first .container .row .col-md-12 .col-md-4 div {
+  width: 360px;
+  height: 90px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-left: -15px;
+  
+}
+.first .container .row .col-md-12 .col-md-4 div h3 {
+  line-height: 50px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.first .container .row .col-md-12 .col-md-4 p:first-of-type {
+  font-size: 20px;
+  padding: 5px;
+}
+.first .container .row .col-md-12 .col-md-4 p:last-child {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.first .container .row .col-md-12 .col-md-4 .bg-icons1 {
+  background: url(../icons/bg-icons/bg-icons1.jpg);
+  color: #eee;
+}
+.first .container .row .col-md-12 .col-md-4 .bg-icons2 {
+
+  background: url(../icons/bg-icons/bg-icons2.jpg);
+}
+.first .container .row .col-md-12 .col-md-4 .bg-icons3 {
+
+  background: url(../icons/bg-icons/bg-icons3.jpg);
+}
+.first .container .row .col-md-12 .col-md-4 .bg-icons4 {
+  color: #eee;
+  background: url(../icons/bg-icons/bg-icons4.jpg);
+}
+.first .container .row .col-md-12 .col-md-4 .bg-icons5 {
+  background: url(../icons/bg-icons/bg-icons5.jpg);
+}
+.first .container .row .col-md-12 .col-md-4 .bg-icons6 {
+  color: #eee;
+  background: url(../icons/bg-icons/bg-icons6.jpg);
+}
+.first .container .row .col-md-12 .col-md-4 .bg-icons7 {
+  color: #eee;
+  background: url(../icons/bg-icons/bg-icons7.jpg);
+}
+.first .container .row .col-md-12 .col-md-4 .bg-icons8 {
+  background: url(../icons/bg-icons/bg-icons8.jpg);
+}
+.first .container .row .col-md-12 .col-md-4 .bg-icons9 {
+  background: url(../icons/bg-icons/bg-icons9.jpg);
+}
+.first .container .row .col-md-12 .col-md-4 .bg-icons10 {
+  background: url(../icons/bg-icons/bg-icons2.jpg);
+}
+.second {
+  background-color: #eee;
+}
+.second .container {
+  margin-bottom: 10px;
+}
+.footer .footer_content .footer_box .row ul li {
+  margin-left: -45px;
+}
